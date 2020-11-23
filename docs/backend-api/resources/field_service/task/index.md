@@ -239,7 +239,7 @@ If **external_id**, **trackers**, **filters**, **from**, **to** or **tag_ids** i
 
 If **offset** or **limit** is null then restrictions for paginations will not be applied.
 
-*   **sort** – **string[]**. (optional) set of sort options. Each option is a pair of column name and sorting direction, e.g. ["label=acs", "address=desc", "employee=desc"]. Possible columns:<br>
+*   **sort** – **string[]**. (optional) set of sort options. Each option is a pair of column name and sorting direction, e.g. ["label=asc", "address=desc", "employee=desc"]. Possible columns:<br>
     — _id_<br>
     — _address_ (location.address)<br>
     — _label_<br>
